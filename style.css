@@ -1,0 +1,193 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header-section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    padding: 0px 40px 0px 40px;
+}
+.logo{
+    margin: 0px 300px 0px 0px ;
+    
+
+}
+.login-btn{
+margin: 0px 28px 0px 0px;
+}
+
+#btn-l{
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: #5a6168;
+    background-color: white;
+    border:2px solid #888d92;
+    
+}
+
+#btn-l:hover{
+    background-color: #ced2d6;
+}
+
+.sign-btn{
+    margin: 0px 25px 0px 0px ;
+
+    
+}
+#btn-two{
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff2b85;
+    border: none;
+    font-weight: bolder;
+}
+
+#btn-two:hover{
+    background-color: #c21760;
+}
+.glob-icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 37px;
+    margin: 0px 22px 0px 0px;
+    
+    
+    
+    
+}
+ /* #arrow{
+    margin: 0px 30px 0px 0px; 
+
+}  */
+
+.glob-icon:hover{
+    background-color: #e9ebec;
+    border-radius: 10px;
+    
+}
+.icon-two{
+    margin: 0px 0px 0px 0px ;
+    padding: 10px 12px 5px 10px ;
+    
+}
+.icon-two:hover{
+    background-color: #e9ebec;
+    border-radius: 50px;
+}
+.content{
+    height: 450px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+.heading{
+    padding: 100px 0px 0px 40px;
+    /* font-family: sans-serif; */
+   font-family:  "Rubik", sans-serif;
+   color: #303235;
+
+
+}
+
+.panda-image{
+
+     padding: 50px 0px 0px 0px ; 
+    
+}
+
+.heading-two{
+    margin: 80px 0px 0px 35px ;
+    font-size: larger;
+  
+}
+
+.chief-image{
+    height: 400px;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+
+}
+.box{
+    height: 400px;
+    width: 100%;
+}
+
+.text{
+    height: 350px;
+    width: 630px;
+    position: relative;
+    bottom: 180px;
+     background-color:rgb(243, 243, 243);
+     border-radius: 20px;
+     border: 1px solid white;
+     margin: 0px 35px ;
+     
+}
+.paragragh{
+    padding: 35px 0px 0px 30px;
+    margin: 0px 0px 0px 0px ;
+    font-size: 30px;
+}
+
+.box-paragraph{
+margin: 20px 0px 0px 30px ;
+/* padding: 0px 0px 0px 0px ; */
+font-size: 18px;
+font-family: "Montserrat", sans-serif;
+line-height: 27px;
+color:#5a6168;
+
+    
+}
+.btn-box{
+    padding: 15px 15px 15px 15px;
+    margin: 18px 0px 0px 29px;
+    color: white;
+    background-color: #ff2b85;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn-box:hover{
+    background-color: #c21760;
+}
+
+.paragragh-two{
+    margin: -115px 0px 0px 35px;
+}
+.image-card{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.cabin img{
+    width: 285px;
+    height: 260px;
+    border:none;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    
+}
