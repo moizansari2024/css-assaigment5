@@ -1,84 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>food panda</title>
     <link rel="stylesheet" href="style.css">
-  
 </head>
+
+
 <body>
-    <div class="header-section">
-        <div class="logo">
-            <img src="https://ridershop.foodpanda.pk/cdn/shop/files/foodpanda-app-icon-horizontal-wordmark_300x300.png?v=1662019648" alt="logo" height="130px">
+    <div class=".max-container">
+        <div class="header-section">
+            <div class="logo">
+                <img src="https://ridershop.foodpanda.pk/cdn/shop/files/foodpanda-app-icon-horizontal-wordmark_300x300.png?v=1662019648"
+                    alt="logo" height="130px">
+            </div>
+            <div class="sub-header">
+                <div class="login-btn">
+                    <button id="btn-l">
+                        <p>Log in</p>
+                    </button>
+                </div>
+                <div class="sign-btn">
+                    <button id="btn-two">
+                        <p>Sign in</p>
+                    </button>
+                </div>
+                <div class="glob-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="icon"
+                        height="20px">
+                    <span>EN</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8875/8875274.png" alt="down-arrow" height="20px"
+                        width="17px">
+                </div>
+                <div class="icon-two">
+                    <svg aria-hidden="true" focusable="false" class="fl-none" width="24" height="24" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.0021 2C14.5418 2 16.4241 3.6512 16.5538 6.15854H19.8491C20.4014 6.15854 20.8491 6.60625 20.8491 7.15854C20.8491 7.20585 20.8457 7.25311 20.8391 7.29996L19.1248 19.1414C19.0544 19.6341 18.6325 20 18.1348 20H5.86942C5.37176 20 4.94984 19.6341 4.87947 19.1414L3.16518 7.29996C3.08707 6.75322 3.46697 6.24669 4.0137 6.16859C4.06055 6.16189 4.10781 6.15854 4.15513 6.15854L7.36129 6.16397C7.49108 3.65663 9.46248 2 12.0021 2ZM17.5607 16.25H6.44235C6.22143 16.25 6.04235 16.4291 6.04235 16.65C6.04235 16.669 6.04369 16.6879 6.04638 16.7067L6.25397 18.1567C6.28217 18.3537 6.45092 18.5 6.64993 18.5H17.3533C17.5523 18.5 17.7211 18.3537 17.7492 18.1566L17.9567 16.7066C17.988 16.488 17.836 16.2853 17.6174 16.254C17.5986 16.2513 17.5797 16.25 17.5607 16.25ZM18.8109 7.65854H5.19233C4.97142 7.65854 4.79233 7.83762 4.79233 8.05854C4.79233 8.32251 4.79367 8.09637 4.79635 8.11511L5.71793 14.4066C5.74609 14.6036 5.91486 14.75 6.11391 14.75H17.8891C18.0882 14.75 18.2569 14.6036 18.2851 14.4066L19.2069 8.11513C19.2381 7.89643 19.0862 7.69381 18.8675 7.66256C18.8487 7.65988 18.8298 7.65854 18.8109 7.65854ZM12.0021 3.40323C10.4163 3.40323 9.15495 4.32251 8.91234 5.80175C8.88507 5.96802 8.98943 6.12701 9.15495 6.15854C9.17377 6.16212 9.19289 6.16392 9.21204 6.1639L14.7134 6.15847C14.8772 6.15843 15.0099 6.02566 15.0099 5.86189C15.0099 5.84361 14.9631 5.82209 15.0049 5.80742C14.655 4.32251 13.5918 3.40323 12.0021 3.40323Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
         </div>
-        <div class="login-btn">
-            <button id="btn-l"><p>Log in</p></button>
-        </div>
-        <div class="sign-btn">
-            <button id="btn-two"><p>Sign in</p></button>
-        </div>
-        <div class="glob-icon">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg" alt="icon" height="20px">
-            <span>EN</span>
-           <img src="https://cdn-icons-png.flaticon.com/512/8875/8875274.png" alt="down-arrow" height="20px" width="17px" > 
-        </div>
-        <div class="icon-two">
-            <svg aria-hidden="true" focusable="false" class="fl-none" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.0021 2C14.5418 2 16.4241 3.6512 16.5538 6.15854H19.8491C20.4014 6.15854 20.8491 6.60625 20.8491 7.15854C20.8491 7.20585 20.8457 7.25311 20.8391 7.29996L19.1248 19.1414C19.0544 19.6341 18.6325 20 18.1348 20H5.86942C5.37176 20 4.94984 19.6341 4.87947 19.1414L3.16518 7.29996C3.08707 6.75322 3.46697 6.24669 4.0137 6.16859C4.06055 6.16189 4.10781 6.15854 4.15513 6.15854L7.36129 6.16397C7.49108 3.65663 9.46248 2 12.0021 2ZM17.5607 16.25H6.44235C6.22143 16.25 6.04235 16.4291 6.04235 16.65C6.04235 16.669 6.04369 16.6879 6.04638 16.7067L6.25397 18.1567C6.28217 18.3537 6.45092 18.5 6.64993 18.5H17.3533C17.5523 18.5 17.7211 18.3537 17.7492 18.1566L17.9567 16.7066C17.988 16.488 17.836 16.2853 17.6174 16.254C17.5986 16.2513 17.5797 16.25 17.5607 16.25ZM18.8109 7.65854H5.19233C4.97142 7.65854 4.79233 7.83762 4.79233 8.05854C4.79233 8.32251 4.79367 8.09637 4.79635 8.11511L5.71793 14.4066C5.74609 14.6036 5.91486 14.75 6.11391 14.75H17.8891C18.0882 14.75 18.2569 14.6036 18.2851 14.4066L19.2069 8.11513C19.2381 7.89643 19.0862 7.69381 18.8675 7.66256C18.8487 7.65988 18.8298 7.65854 18.8109 7.65854ZM12.0021 3.40323C10.4163 3.40323 9.15495 4.32251 8.91234 5.80175C8.88507 5.96802 8.98943 6.12701 9.15495 6.15854C9.17377 6.16212 9.19289 6.16392 9.21204 6.1639L14.7134 6.15847C14.8772 6.15843 15.0099 6.02566 15.0099 5.86189C15.0099 5.84361 14.9631 5.82209 15.0049 5.80742C14.655 4.32251 13.5918 3.40323 12.0021 3.40323Z"></path></svg>
-        </div>
-    </div>
-    <div class="content">
-        <!-- <div class="panda-image"> -->
+        <div class="content">
+            <!-- <div class="panda-image"> -->
             <div class="heading">
                 <h1>It's the food and groceries you <br>love, delivered</h1>
             </div>
             <div class="panda-image">
-                <img src="https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-pk.png" alt="image" height="400px" width="400">
-       </div>
-    </div>
-   
+                <img src="https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-pk.png" alt="image"
+                    height="400px" width="400">
+            </div>
+        </div>
+
         <div class="heading-two">
             <h1>You prepare the food, we handle the rest</h1>
-      </div>
-      <div class="chief-image">
-        <img src="https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=2000&height=1280" alt="image" class="box">
-      </div>
-      <div class="text">
-        <div class="paragragh">
-            <span>List your restaurant or shop on foodpanda</span>
+        </div>
+        <div class="chief-image">
+            <img src="https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=2000&height=1280"
+                alt="image" class="box">
+        </div>
+        <div class="text">
+            <div class="paragragh">
+                <span>List your restaurant or shop on foodpanda</span>
             </div>
-            <p class="box-paragraph">Would you like millions of new customers to enjoy your amazing food and groceries? So would we!</p>
-            <p class="box-paragraph">It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!</p>
+            <p class="box-paragraph">Would you like millions of new customers to enjoy your amazing food and groceries?
+                So would we!</p>
+           <p class="box-paragraph"> pick them up, and deliver them to hungry pandas – in a heartbeat!</p>
             <p class="box-paragraph">Interested? Let's start our partnership today!</p>
             <button class="btn-box">Get started</button>
         </div>
-      </div>
-      <div class="paragragh-two">
+    </div>
+    <div class="paragragh-two">
         <h1>Find us in these cities and many more!</h1>
-      </div>
-      <div class="image-card">
-        <div class="cabin">
-            <img src="https://live.staticflickr.com/5218/5383604069_b9ba3c8e01_b.jpg" alt="">
-        </div>
-        <div class="cabin">
-            <img src="https://images.squarespace-cdn.com/content/v1/59735d56414fb5f8ab955211/1640610651270-64TVQ44W02B8IF13MYF3/muhammad-amer-TXJEdxs5Hh4-unsplash.jpg?format=2500w" alt="">
-        </div>
-        <div class="cabin">
-            <img src="https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2020/07/Sea-View-Karachi-E-14-07-1024x640.jpg" alt="">
-        </div>
+    </div>
+    <div class="image-card">
+            <div class="cabin">
+                <img src="https://live.staticflickr.com/5218/5383604069_b9ba3c8e01_b.jpg" alt="">
+                <p class="cities-name">Islamabad</p> 
+            </div>
+            <div class="cabin">
+                <img src="https://images.squarespace-cdn.com/content/v1/59735d56414fb5f8ab955211/1640610651270-64TVQ44W02B8IF13MYF3/muhammad-amer-TXJEdxs5Hh4-unsplash.jpg?format=2500w"
+                alt="">
+                <p class="cities-name">lahore</p>
+            </div>
+            <div class="cabin">
+                <img src="https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2020/07/Sea-View-Karachi-E-14-07-1024x640.jpg"
+                alt="">
+                <p class="cities-name">karachi</p>
+            </div>
         <div class="cabin">
             <img src="https://www.flydubai.com/en/media/multan_tcm8-6326.jpg" alt="">
+            <p class="cities-name">Multan</p>
         </div>
         <div class="cabin">
-        <img src="https://www.arup.com/globalassets/images/projects/l/lahore-safe-city-project/lahore-safe-city-hero.jpg?width=1840&height=1035&quality=80" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPVF0F-lf661mB0tGbyeqU-LOjycnLy4iCSg&s"
+                alt="">
+            <p class="cities-name">Sialkot</p>
         </div>
-        
-      </div>
-       
-           
-    
-  
-   
-  
+        <div class="cabin">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0DOSShpOM3nChr0DUFoyqKveB6KlfGkc-w&s"
+                    alt="">
+             <p class="cities-name">jehlum</p>
+        </div>
+        <div class="cabin">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn_dJLjfp1orOUrJU4UE0KWT8yA4ynlqKSZg&s"
+                alt="">
+            <p class="cities-name">Gujrat</p>
+        </div>
+        <div class="cabin">
+            <img src="https://towers.pk/wp-content/uploads/2023/07/gujarat-city.jpg" alt="">
+            <p class="cities-name">Gujranwala</p>
+        </div>
+        <div class="cabin">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/64/e4/26/mian-ghulam-nabi-kalhoro.jpg?w=1200&h=-1&s=1"
+                alt="">
+            <p class="cities-name">Hydrabad</p>
+        </div>
+    </div>
+    <div class="heading-three">
+        <h1>Put us in your pocket</h1>
+    </div>
+    <div class="content-picture">
+        <div class="content-heading">
+            <p>Download the food and groceries you love</p>
+        </div>
+            <div class="parent-qr">
+                <img class="content-qr"
+                    src="https://images.deliveryhero.io/image/foodpanda/homepage/pkhomepageqrcode.png" alt="qr"
+                    data-testid="qr">
+            </div>
+            <div class="content-mobile-picture">
+                <img src="https://images.deliveryhero.io/image/foodpanda/home-foodpanda-apps.png" alt="">
+            </div> 
+        </div>
+        <div class="content-lines">
+            <p>It's all at your fingertips – the restaurants and shops you love. Find the right food and groceries to suit your mood, and make the first bite last. Go ahead, download us.</p>
+        </div>
+<div class="heading-four">
+    <h1>Take your office out to lunch</h1>
+</div>
+        <div class="office-image">
+            <img src="https://magazine.foodpanda.pk/wp-content/uploads/sites/13/2018/03/office-food-delivery.jpg" alt="image">
+        </div>
+
+        <div class="last-section">
+            <div class="heading-four">
+                <h1>Food panda your buisnees</h1>
+            </div>
+            <div class="last-section-paragraph">
+                <p>Order lunch or fuel for work-from-home, late nights in the office, corporate events, client meetings, and much more.</p>
+            </div>
+            <button class="btn-box">Get started</button>
+        </div>
+    </div>
+    <footer>
+        <div class="ques-ans-section">
+            <div class="child">
+                <h1>Order food and groceries online from the best <br> restaurants and shops on foodpanda
+                </h1>
+                <p class="ques-ans-section-paragraph">Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Pakistan is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your every day easier.
+                </p>
+            </div>
+            <div class="ques-ans-one">
+                <h1>Whats a new </h1>
+                <p class="ques-ans-section-paragraph">✓ Wide variety of restaurants and shops, an abundance of cuisines & products.</p>
+                <p class="ques-ans-section-paragraph">✓ High quality delivery service.</p>
+                <p class="ques-ans-section-paragraph">✓ Live chat feature to give App users instant help when they need it.</p>
+                <p class="ques-ans-section-paragraph">✓ NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you</p>
+            </div>
+            <hr>
+            <div class="ques-ans-two">
+                <h2>Frequently Asked Questions</h2>
+                <h3>How can I get foodpanda delivery?</h3>
+                <p class="ques-ans-section-paragraph">Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also order groceries 24 hours a day via pandamart</p>
+            </div>
+            <div class="ques-ans-one">
+                <h3>Which takeout restaurants open now near me?</h3>
+                <p class="ques-ans-section-paragraph">You can check which takeout restaurants are open now near you by simply typing your address in the location bar on foodpanda and pressing search. You will see all the available restaurants and shops that deliver to your area.
+                </p>
+            </div>
+            <div class="ques-ans-one">
+                <h3>Does foodpanda deliver 24 hours?
+                </h3>
+                <p class="ques-ans-section-paragraph">Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also order groceries 24 hours a day via pandamart.</p>
+            </div>
+            <div class="ques-ans-one">
+                <h3>Can I order foodpanda for someone else?</h3>
+                <p class="ques-ans-section-paragraph">Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you're ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won't be able to process a refund</p>
+            </div>
+            <div class="ques-ans-one">
+                <h3>How much does foodpanda charge for delivery?</h3>
+                <p class="ques-ans-section-paragraph">
+                    Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing
+                </p>
+            </div>
+            <div class="ques-ans-one">
+                <h3>Does foodpanda have minimum order?</h3>
+                <p class="ques-ans-section-paragraph">
+                    Yes, many restaurants have a minimum order. The minimum order value depends on the restaurant you order from and is indicated during your ordering process
+                </p>
+            </div>
+            <div class="ques-ans-one">
+                <h3>What restaurants let you order online?</h3>
+                <p class="ques-ans-section-paragraph">
+                    There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example, KFC, McDonald's, Pizza Hut, OPTP, Hardee's, Domino's, Kababjees and many-many more! In order to check all the restaurants near you that deliver, just type in your address and discover all the available places.
+                </p>
+            </div>
+            <div class="ques-ans-one">
+                <h3>What is the difference between delivery and Pick-Up?</h3>
+                <p class="ques-ans-section-paragraph">
+                    If you choose delivery, a foodpanda rider will collect your order from the restaurant and take it to your chosen delivery address. If you choose Pick-Up, you can takeaway your food directly from the restaurant for extra savings – and to jump to the front of the queue. Pick-Up orders are available for restaurants only.
+                </p>
+            </div>
+            <div class="ques-ans-one">
+                <h3 class="h3-speical">Order food and groceries online with foodpanda now and enjoy a great dining experience!
+                </h3>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
