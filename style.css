@@ -5,15 +5,25 @@
 
 }
 
+.max-container{
+    max-width: 1920px;
+}
+
 .header-section{
     background-color: white;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 65px;
     overflow: hidden;
     position: sticky;
     top: 0px;
     padding: 0px 40px 0px 40px;
+    z-index: 99999999;
+}
+.sub-header{
+    display: flex;
+    align-items: center;
 }
 .logo{
     margin: 0px 300px 0px 0px ;
