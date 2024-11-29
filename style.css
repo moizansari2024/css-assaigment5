@@ -192,6 +192,7 @@ color:#5a6168;
     align-items: center;
     background-size:cover;
     
+    
 }
 .cities-name{
     font-size: 33px;
@@ -319,11 +320,101 @@ hr{
 }
 h2{
     margin: 0px 0px 15px 0px ;
+    color:#262729 ;
 }
 h3{
     margin: 20px 0px 0px 0px ;
+    color: #262729;
 }
 
 .h3-speical{
     margin:30px 0px 0px 0px ;
 }
+.footer-section-hr{
+    margin: 150px 0px 50px 0px;
+}
+.other-countries-name{
+    margin: 0px 45px 0px 0px ;
+
+}
+
+.footer-countries-name{
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    
+}
+.footer-countries-name a{
+    color: #5a6168;
+    margin: 0px 0px 0px 0px ;
+    text-decoration: none;
+}
+
+.hr-lines{
+    height: 20px;
+    margin: 0px 0px 0px 0px ;
+}
+
+.footer-section-hr-two{
+    margin: 25px 0px 0px 0px ;
+}
+
+.copy-rigth{
+    color: #212122;
+}
+
+.nav-footer{
+    display: flex;
+    margin: 35px 0px 0px 0px ;
+    
+}
+.copy-rigth{
+    margin: 0px 150px 0px 0px;
+}
+.foot-links{
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    text-decoration: underline;
+   
+}
+.foot-links-two{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-decoration: underline;
+    
+}
+
+.foot-links-three{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-decoration: underline;
+    
+}
+a{
+    text-decoration: none;
+    color:#212122;
+    font-size: 20px;
+    
+}
+
+.second-last-hr{
+    margin: 40px 0px 0px 0px;
+    
+}
+.footer-foodpanda-image{
+    display: flex;
+    align-items: center;
+
+}
+
+.last-hr{
+    height: 20px;
+    margin: 0px 0px 0px 7px ;
+}
+.insta-icon-fb-icon{
+    margin: -50px 0px 0px 900px ;
+}
+
