@@ -177,7 +177,7 @@ color:#5a6168;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 12px;
     justify-content: center;
     align-items: center;
 }
@@ -242,7 +242,7 @@ color:#5a6168;
 
     position: relative;
     bottom: 220px;
-    height: 370px;
+    height: 335px;
     margin: 0px 0px 0px 490px ;
   
 }
@@ -304,7 +304,7 @@ color:#5a6168;
 }
 
 .ques-ans-section-paragraph{
-    margin: 15px 0px 0px 0px;
+    margin: 15px 100px 0px 0px;
     font-size: 18px;
     color: #a1a4a7;
     line-height: 25px;
@@ -315,7 +315,7 @@ color:#5a6168;
 
 
 hr{
-    margin: 20px 0px 15px 0px ;
+    margin: 20px 70px 15px 0px ;
   
 }
 h2{
@@ -331,7 +331,7 @@ h3{
     margin:30px 0px 0px 0px ;
 }
 .footer-section-hr{
-    margin: 150px 0px 50px 0px;
+    margin: 150px 40px 50px 0px;
 }
 .other-countries-name{
     margin: 0px 45px 0px 0px ;
@@ -356,7 +356,7 @@ h3{
 }
 
 .footer-section-hr-two{
-    margin: 25px 0px 0px 0px ;
+    margin: 40px 0px 0px 0px ;
 }
 
 .copy-rigth{
@@ -365,7 +365,8 @@ h3{
 
 .nav-footer{
     display: flex;
-    margin: 35px 0px 0px 0px ;
+    margin: 35px 50px 0px 0px ;
+    
     
 }
 .copy-rigth{
@@ -401,7 +402,7 @@ a{
 }
 
 .second-last-hr{
-    margin: 40px 0px 0px 0px;
+    margin: 40px 30px 0px 0px;
     
 }
 .footer-foodpanda-image{
@@ -415,6 +416,10 @@ a{
     margin: 0px 0px 0px 7px ;
 }
 .insta-icon-fb-icon{
-    margin: -50px 0px 0px 900px ;
+margin: 0px 25px 0px 0px ;
+ position: absolute;
+ right: 0px;
+
+
 }
 
